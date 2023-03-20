@@ -1,0 +1,10 @@
+aside {
+    background-image: linear-gradient(to bottom right, rgb(165, 132, 209), #6d3981);
+    width: 100%;
+    padding: 3%;
+    height: calc(100vh - var(--toolbar-height));
+    text-align: center;
+    float: left;
+    position: static;
+  }
+  
