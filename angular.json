@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "clase-02-practica": {
+    "componentes-rodriguez": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/clase-02-practica",
+            "outputPath": "dist/componentes-rodriguez",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "clase-02-practica:build:production"
+              "browserTarget": "componentes-rodriguez:build:production"
             },
             "development": {
-              "browserTarget": "clase-02-practica:build:development"
+              "browserTarget": "componentes-rodriguez:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "clase-02-practica:build"
+            "browserTarget": "componentes-rodriguez:build"
           }
         },
         "test": {
